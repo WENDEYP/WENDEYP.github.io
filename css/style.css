@@ -250,6 +250,13 @@ td,
 th {
   padding: 0;
 }
+@font-face {
+  font-family: 'Monaco';
+  src: url("https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/Monaco/Monaco.ttf");
+  font-weight: 'normal';
+  font-style: 'normal';
+  font-display: swap;
+}
 article#arc,
 article#cat,
 article#tag {
@@ -6087,121 +6094,6 @@ div.timenode:hover .meta:after {
   opacity: 1;
   -webkit-opacity: 1;
   -moz-opacity: 1;
-}
-.hljs:before,
-.highlight:before {
-  position: absolute;
-  top: 0;
-  right: 0;
-  color: var(--color-meta);
-  font-size: 13px;
-  padding: 4px 8px;
-}
-.hljs.md:before,
-.highlight.md:before,
-.hljs.markdown:before,
-.highlight.markdown:before {
-  content: "md";
-}
-.hljs.yaml:before,
-.highlight.yaml:before {
-  content: "YAML";
-}
-.hljs.json:before,
-.highlight.json:before {
-  content: "JSON";
-}
-.hljs.html:before,
-.highlight.html:before {
-  content: "HTML";
-}
-.hljs.js:before,
-.highlight.js:before,
-.hljs.javascript:before,
-.highlight.javascript:before {
-  content: "JS";
-}
-.hljs.css:before,
-.highlight.css:before {
-  content: "CSS";
-}
-.hljs.less:before,
-.highlight.less:before {
-  content: "Less";
-}
-.hljs.stylus:before,
-.highlight.stylus:before {
-  content: "Stylus";
-}
-.hljs.bash:before,
-.highlight.bash:before {
-  content: "bash";
-}
-.hljs.shell:before,
-.highlight.shell:before {
-  content: "shell";
-}
-.hljs.sh:before,
-.highlight.sh:before {
-  content: "sh";
-}
-.hljs.ini:before,
-.highlight.ini:before {
-  content: "ini";
-}
-.hljs.c:before,
-.highlight.c:before {
-  content: "C";
-}
-.hljs.cpp:before,
-.highlight.cpp:before {
-  content: "C++";
-}
-.hljs.objc:before,
-.highlight.objc:before,
-.hljs.objectivec:before,
-.highlight.objectivec:before {
-  content: "Objective-C";
-}
-.hljs.swift:before,
-.highlight.swift:before {
-  content: "Swift";
-}
-.hljs.java:before,
-.highlight.java:before {
-  content: "Java";
-}
-.hljs.python:before,
-.highlight.python:before {
-  content: "Python";
-}
-.hljs.php:before,
-.highlight.php:before {
-  content: "PHP";
-}
-.hljs.rust:before,
-.highlight.rust:before {
-  content: "Rust";
-}
-.hljs.sql:before,
-.highlight.sql:before {
-  content: "SQL";
-}
-.hljs.ruby:before,
-.highlight.ruby:before {
-  content: "Ruby";
-}
-.hljs.makefile:before,
-.highlight.makefile:before {
-  content: "Makefile";
-}
-.hljs.go:before,
-.highlight.go:before {
-  content: "Go";
-}
-.hljs.typescript:before,
-.highlight.typescript:before {
-  content: "TypeScript";
 }
 .highlight pre .line,
 .highlight pre .params {
